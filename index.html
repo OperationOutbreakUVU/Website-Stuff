@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+			
+        }
+
+        .btn-group {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+			
+        }
+
+        .question-container {
+            margin-top: 30px;
+        }
+
+        .answer-btn {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .correct {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .incorrect {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Game</h1>
+    <div class="btn-group">
+        <button onclick="loadQuestion(1)">Level 1</button>
+        <button onclick="loadQuestion(2)">Level 2</button>
+        <button onclick="loadQuestion(3)">Level 3</button>
+    </div>
+
+    <div class="question-container hidden" id="question-container">
+        <p id="question-text"></p>
+        <div id="answer-buttons"></div>
+    </div>
+
+    <script>
+        let questions = {}; // Will hold questions loaded from the text file
+        let answered = false; // Track if the question has been answered
+
+        // Fetch questions from questions.txt (JSON formatted)
+        fetch('questions.txt')
+            .then(response => response.json())
+            .then(data => {
+                questions = data; // Store the loaded questions
+            })
+            .catch(error => console.error('Error loading questions:', error));
+
+        // Function to load a random question from the selected level
+        // Function to shuffle an array (Fisher-Yates algorithm)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+}
+
+// Function to load a random question from the selected level
+function loadQuestion(level) {
+    // Ensure questions are loaded before proceeding
+    if (!questions[level] || questions[level].length === 0) {
+        console.error("Questions for this level are not available.");
+        return;
+    }
+
+    // Reset answered status
+    answered = false;
+   
+    const levelQuestions = questions[level];
+    const randomIndex = Math.floor(Math.random() * levelQuestions.length);
+    const selectedQuestion = levelQuestions[randomIndex];
+
+    // Shuffle the answers before displaying
+    const shuffledAnswers = shuffleArray([...selectedQuestion.answers]); // Use a copy to avoid modifying original
+
+    // Display question and answers
+    const questionContainer = document.getElementById('question-container');
+    const questionText = document.getElementById('question-text');
+    const answerButtons = document.getElementById('answer-buttons');
+
+    questionText.textContent = selectedQuestion.question;
+    answerButtons.innerHTML = ''; // Clear previous buttons
+
+    // Generate answer buttons with reset styles and shuffled order
+    shuffledAnswers.forEach(answer => {
+        const btn = document.createElement('button');
+        btn.textContent = answer;
+        btn.classList.add('answer-btn');
+        btn.classList.remove('correct', 'incorrect'); // Reset any previous styling
+        btn.onclick = () => checkAnswer(btn, answer, selectedQuestion.correct);
+        answerButtons.appendChild(btn);
+    });
+
+    questionContainer.classList.remove('hidden'); // Show the question
+}
+
+        // Function to check if the selected answer is correct
+        function checkAnswer(button, selected, correct) {
+            if (answered) return; // Prevent multiple answers
+            answered = true;
+
+            // Change the button color based on whether the answer is correct
+            if (selected === correct) {
+                button.classList.add('correct');
+            } else {
+                button.classList.add('incorrect');
+            }
+
+            // Wait 10 seconds, then hide the question
+            setTimeout(() => {
+                document.getElementById('question-container').classList.add('hidden');
+            }, 2500);
+        }
+    </script>
+</body>
+</html>

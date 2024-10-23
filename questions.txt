@@ -1,0 +1,426 @@
+{
+    "1": [
+        {
+            "question": "What characterizes an endemic? (Chapter 1 Pg 6-7)",
+            "answers": [
+                "A disease that is common and persistent in populations",
+                "An outbreak of a disease that affects only a small, isolated group",
+                "A sudden and widespread outbreak of an infectious disease in a particular region.",
+                "The global eradication of a disease"
+            ],
+            "correct": "A disease that is common and persistent in populations"
+        },
+        {
+            "question": "What does the disease SARS stand for? (Chapter 1 Pg 4-5)",
+            "answers": [
+                "Severe Allergic Reaction Syndrome",
+                "Severe acute respiratory syndrome.",
+                "Systemic Autoimmune Respiratory Sickness",
+                "Sudden Acute Respiratory Shutdown"
+            ],
+            "correct": "Severe acute respiratory syndrome."
+        },
+        {
+            "question": "Which of the following describes Bacteria? (Chapter 1 - Pg 6-7)",
+            "answers": [
+                "Non-cellular particles",
+                "Unicellular microorganisms",
+                "Multicellular organisms",
+                "Microscopic particles requiring a host cell to reproduce"
+            ],
+            "correct": "Unicellular microorganisms"
+        },
+        {
+            "question": "What characterizes an epidemic? (Chapter 1 - Pg 6-7)",
+            "answers": [
+                "A disease that spreads slowly over several years affecting several different regions",
+                "An outbreak of a disease that affects only a small, isolated group",
+                "A sudden and widespread outbreak of an infectious disease in a particular region.",
+                "The global eradication of a disease"
+            ],
+            "correct": "A sudden and widespread outbreak of an infectious disease in a particular region."
+        },
+        {
+            "question": "What is the primary goal of containment strategies in public health? (Chapter 1 pg 22-23)",
+            "answers": [
+                "To eliminate all infectious diseases by region",
+                "To protect the global population by implementing measures to control the spread of infectious diseases",
+                "To focus solely on treating individual patients",
+                "To predict future outbreaks without taking any precautions"
+            ],
+            "correct": "To protect the global population by implementing measures to control the spread of infectious diseases"
+        },
+        {
+            "question": "What are nucleotides primarily known for? (chapter 4 pg 10-11)",
+            "answers": [
+                "Acting as enzymes in metabolic reactions",
+                "Serving as the building blocks of DNA and RNA",
+                "Forming the structure of cell membranes",
+                "Providing energy directly to cells"
+            ],
+            "correct": "Serving as the building blocks of DNA and RNA"
+        },
+        {
+            "question": "How many genes are encoded within the Ebola virus genome? (Chapter 4 - Pg 12-13)",
+            "answers": [
+                "Ten",
+                "Eight",
+                "Seven",
+                "Four"
+            ],
+            "correct": "Seven"
+        },
+        {
+            "question": "Approximately how many bases does the Ebola virus genome contain? (Chapter 4 - Pg 12-13)",
+            "answers": [
+                "7,000 bases",
+                "19,000 bases",
+                "12,000 bases",
+                "20,000 bases"
+            ],
+            "correct": "19,000 bases"
+        },
+        {
+            "question": "What is considered the most basic structural and functional unit of life? (Chapter 4 - Pg 12–13)",
+            "answers": [
+                "Cell",
+                "Atom",
+                "Molecule",
+                "Organism"
+            ],
+            "correct": "Cell"
+        },
+        {
+            "question": "Which of the following are the four bases found in DNA? (Chapter 4 - Pg 12-13)",
+            "answers": [
+                "Adenine, Uracil, Guanine, Thymine",
+                "Adenine, Cytosine, Guanine, Uracil",
+                "Adenine, Uracil, Guanine, Ribose",
+                "Adenine, Cytosine, Guanine, Thymine"
+            ],
+            "correct": "Adenine, Cytosine, Guanine, Thymine"
+        },
+        {
+            "question": "What is a characteristic feature of viruses? (Chapter 5 - Pg 2-3)",
+            "answers": [
+                "They can reproduce independently outside a host organism.",
+                "They can only reproduce inside the cells of a host organism.",
+                "They can reproduce in both living and non-living environments.",
+                "They can grow and divide like bacteria in any environment."
+            ],
+            "correct": "They can only reproduce inside the cells of a host organism."
+        },
+        {
+            "question": "Which of the following is the correct lytic cycle order? (Chapter 5 - Pg 10-11)",
+            "answers": [
+                "Attachment, replication, penetration, lysis, assembly",
+                "Attachment, assembly, penetration, replication, lysis",
+                "Lysis, assembly, attachment, replication, penetration",
+                "Attachment, penetration, replication, assembly, lysis"
+            ],
+            "correct": "Attachment, penetration, replication, assembly, lysis"
+        },
+        {
+            "question": "What does the Gram stain technique reveal about bacteria? (Chapter 5 - Pg 16-17)",
+            "answers": [
+                "The presence of a nucleus in bacterial cells",
+                "The features of a bacterial cell wall based on its ability to retain crystal violet dye.",
+                "The metabolic rate of bacterial cells.",
+                "The size and shape of bacterial cells under a microscope."
+            ],
+            "correct": "The features of a bacterial cell wall based on its ability to retain crystal violet dye."
+        },
+        {
+            "question": "What is the definition of immunity? (Chapter 6 - Pg 6-7)",
+            "answers": [
+                "The ability of the body to prevent pathogens from entering",
+                "The ability to produce pathogens after being exposed to them.",
+                "The ability to defend against a foreign pathogen after having been exposed to it.",
+                "The ability to detect and neutralize only bacterial infections."
+            ],
+            "correct": "The ability to produce pathogens after being exposed to them."
+        },
+        {
+            "question": "What cells are part of the innate immune system? (Chapter 6 - Pg 8-9)",
+            "answers": [
+                "NK-cells",
+                "Macrophages",
+                "B cells",
+                "T cells"
+            ],
+            "correct": "Macrophages"
+        },
+        {
+            "question": "What type of cells cause inflammation during the immune response? (Chapter 6 - Pg 8-9)",
+            "answers": [
+                "Basophils and Eosinophils",
+                "Neutrophils and Natural killer cells",
+                "B-cells and Neutrophils",
+                "Neutrophils and Macrophages"
+            ],
+            "correct": "Basophils and Eosinophils"
+        },
+        {
+            "question": "What does the humoral immune response specifically involve? (Chapter 6 - Pg 18-19)",
+            "answers": [
+                "Destroying infected body cells",
+                "Monitoring and defending the blood against pathogens.",
+                "Create barriers that prevent pathogen entry.",
+                "Production of antibodies by T-cells to attack pathogens."
+            ],
+            "correct": "Monitoring and defending the blood against pathogens."
+        },
+        {
+            "question": "Biomarkers are measurable biological indicators that show changes in a person's health state. Which of the following types of tests are commonly used to detect biomarkers? (Chapter 7 - pg 20-21)",
+            "answers": [
+                "Blood pressure tests and vision tests",
+                "Reflex tests and psychological evaluation",
+                "Genome and antigen-based test",
+                "Lung capacity tests and hearing tests"
+            ],
+            "correct": "Genome and antigen-based test"
+        },
+        {
+            "question": "What type of samples are used for antigen testing? (Chapter 7 pg 22-23)",
+            "answers": [
+                "Urine",
+                "Cerebral spinal fluid",
+                "Nose swab",
+                "Stool"
+            ],
+            "correct": "Nose swab"
+        },
+        {
+            "question": "What is the function of antifungals? (Chapter 8 pg 18-19)",
+            "answers": [
+                "Fight off fungal infections",
+                "Fight off viral infections",
+                "Fight off bacterial infections",
+                "Fight off protozoa"
+            ],
+            "correct": "Fight off fungal infections"
+        },
+        {
+            "question": "What is an antibiotic's mechanism of action? (Chapter 8 pg 22-23)",
+            "answers": [
+                "Punctures cell membrane",
+                "Prevents synthesis of genetic material",
+                "Prevents the release of new viral particles from host cells",
+                "Inhibits RNA transcription"
+            ],
+            "correct": "Inhibits RNA transcription"
+        },
+        {
+            "question": "What is the last step in the drug approval process done through the FDA? (Chapter 8 pg 28-29)",
+            "answers": [
+                "FDA Drug Review",
+                "Post-Market Clinical Research",
+                "Clinical research",
+                "Drug Discovery and Development"
+            ],
+            "correct": "Post-Market Clinical Research"
+        },
+		{
+            "question": "What type of self-medication often comes in the form of gel or cream? (Chapter 8 pg 38-39)",
+            "answers": [
+                "Intranasal",
+                "Topical",
+                "Oral",
+                "Intravenous"
+            ],
+            "correct": "Topical"
+        },
+        {
+            "question": "When was the 1st hepatitis B vaccine developed? (Chapter 9 pg 10-11)",
+            "answers": [
+                "1969",
+                "1955",
+                "1980",
+                "2020"
+            ],
+            "correct": "1969"
+        },
+        {
+            "question": "Which part of the vaccine stimulates the immune system but doesn’t cause the disease? (Chapter 9 pg 20-21)",
+            "answers": [
+                "Stabilizers",
+                "Preservatives",
+                "Active Ingredients",
+                "Trace components"
+            ],
+            "correct": "Active Ingredients"
+        },
+        {
+            "question": "Which of the following was the country that Ebola started in?",
+            "answers": [
+                "Nicaragua",
+                "Democratic Republic of the Congo",
+                "Chad",
+                "Zambia"
+            ],
+            "correct": "Democratic Republic of the Congo"
+        },
+        {
+            "question": "What caused the initial Ebola outbreak?",
+            "answers": [
+                "Bathing in unclean water",
+                "Exchanging Contaminated Fluids",
+                "Consuming infected meat, likely bats.",
+                "Insects feeding and spreading disease."
+            ],
+            "correct": "Consuming infected meat, likely bats."
+        },
+        {
+            "question": "What spreads Ebola between people?",
+            "answers": [
+                "Exchanging bodily fluids like blood, sweat, and tears",
+                "Failing to wash hands before touching your face",
+                "Touching infected surfaces",
+                "Microscopic particles entering through the nose"
+            ],
+            "correct": "Exchanging bodily fluids like blood, sweat, and tears"
+        },
+        {
+            "question": "What are the symptoms of Ebola?",
+            "answers": [
+                "Severe headache, Muscle pain, Sore throat, spots of blood under your skin, Fatigue, Loss of appetite, Bloody Vomit, bloody diarrhea.",
+                "Fever, Cough, Shortness of breath, Sore throat, Congestion, loss of taste or smell, Fatigue, body aches.",
+                "Body chills, body aches, constant hunger, teeth rot, skin decay, bloody vomit, blindness",
+                "Urination, Thirst, Weight loss, Hunger, Vision, Fatigue, Skin, Slow healing"
+            ],
+            "correct": "Severe headache, Muscle pain, Sore throat, spots of blood under your skin, Fatigue, Loss of appetite, Bloody Vomit, bloody diarrhea."
+        },
+        {
+            "question": "What is a social factor that affects an individual's health (Chapter 10 pg 6-7)?",
+            "answers": [
+                "Genetics",
+                "Immunity",
+                "Stress",
+                "Other health conditions"
+            ],
+            "correct": "Stress"
+        },
+        {
+            "question": "Which of the following is not a chronic illness?",
+            "answers": [
+                "Diabetes",
+                "Heart Disease",
+                "Influenza",
+                "Asthma"
+            ],
+            "correct": "Influenza"
+        },
+        {
+            "question": "Which of the following is a common vector for transmitting diseases like malaria?",
+            "answers": [
+                "Ticks",
+                "Flies",
+                "Mosquitoes",
+                "Fleas"
+            ],
+            "correct": "Mosquitoes"
+        },
+        {
+            "question": "Which of the following diseases is caused by a virus?",
+            "answers": [
+                "Influenza",
+                "Tuberculosis",
+                "Ringworm",
+                "Malaria"
+            ],
+            "correct": "Influenza"
+        },
+        {
+            "question": "What is the primary cause of infectious diseases?",
+            "answers": [
+                "Poor Nutrition",
+                "Pathogens",
+                "Genetic Mutations",
+                "Environmental Factors"
+            ],
+            "correct": "Pathogens"
+        },
+        {
+            "question": "What is responsible for copying DNA for future generations of cells? (chapter 4 pg 6-7)",
+            "answers": [
+                "DNA polymerase",
+                "Nucleic Acid",
+                "Ribonucleic acid (RNA)",
+                "Transfer RNA (tRNA)"
+            ],
+            "correct": "DNA polymerase"
+        },
+        {
+            "question": "What are the building blocks of DNA and RNA? (chapter 4 pg 10-11)",
+            "answers": [
+                "Nucleotides",
+                "Nucleic Acid",
+                "Codon",
+                "Amino acids"
+            ],
+            "correct": "Nucleotides"
+        },
+        {
+            "question": "What phase does the duplication of genetic material occur in? (chapter 4 pg 10-11)",
+            "answers": [
+                "Prophase",
+                "Anaphase",
+                "Transcription",
+                "Translation"
+            ],
+            "correct": "Translation"
+        },
+        {
+            "question": "What are nucleotides made up of? (chapter 4 pg 12-13)",
+            "answers": [
+                "Amino acids, lipids, carbohydrates",
+                "A sugar, a phosphate group, and a nitrogenous base",
+                "Proteins, enzymes, and water",
+                "Fatty acids, glycerol, and cholesterol"
+            ],
+            "correct": "A sugar, a phosphate group, and a nitrogenous base"
+        },
+        {
+            "question": "What makes up the backbone of DNA or RNA? (chapter 4 pg 12-13)",
+            "answers": [
+                "Sugar and phosphate",
+                "Sugar and amino acids",
+                "Amino acids and phosphate",
+                "Phosphate and nucleic acid"
+            ],
+            "correct": "Sugar and phosphate"
+        },
+        {
+            "question": "What is an insertion mutation? (chapter 4 pg 26-27)",
+            "answers": [
+                "A mutation where one or more nucleotides are removed from a gene sequence",
+                "A mutation where one or more nucleotides are added to a gene sequence where they don’t belong",
+                "A mutation that changes one nucleotide for another in a gene sequence",
+                "A mutation where a section of DNA is inverted within the gene sequence"
+            ],
+            "correct": "A mutation where one or more nucleotides are added to a gene sequence where they don’t belong"
+        },
+        {
+            "question": "Which of the following is true about the nucleus? (chapter 4 pg 10-11)",
+            "answers": [
+                "It breaks down harmful chemicals in the cell",
+                "It is a membrane-bound organelle that contains tightly packed DNA",
+                "It is the site of protein synthesis",
+                "It is only found in prokaryotic cells"
+            ],
+            "correct": "It is a membrane-bound organelle that contains tightly packed DNA"
+        }
+    ],
+	 "2": [
+        { "question": "What is 10 / 2?", "answers": ["3", "5", "8", "6"], "correct": "5" },
+        { "question": "Which planet is known as the Red Planet?", "answers": ["Earth", "Mars", "Jupiter", "Saturn"], "correct": "Mars" }
+    ],
+    "3": [
+        { "question": "What is the capital of France?", "answers": ["Berlin", "London", "Paris", "Rome"], "correct": "Paris" },
+        { "question": "Which element has the chemical symbol 'O'?", "answers": ["Oxygen", "Gold", "Iron", "Helium"], "correct": "Oxygen" }
+    ]
+}
+	
+
+
+    
